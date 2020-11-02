@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.reading {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.vanish {
+	color: white;
+  animation: vanishing 30s ;
+    user-select: none;
+}
+.vanish::before{
+	content: "";
+    animation: countdown 100s ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: red;
+}
+
+@keyframes countdown {
+  0% { content: "This text will disappear in 30s"}
+  1% { content: "This text will disappear in 30s"}
+  2% {content: "This text will disappear in 29s"}
+  3% {content: "This text will disappear in 28s"}
+  4% {content: "This text will disappear in 27s"}
+  5% {content: "This text will disappear in 26s"}
+  6% {content: "This text will disappear in 25s"}
+  7% {content: "This text will disappear in 24s"}
+  8% {content: "This text will disappear in 23s"}
+  9% {content: "This text will disappear in 22s"}
+  10% {content: "This text will disappear in 21s"}
+  11% {content: "This text will disappear in 20s"}
+  12% {content: "This text will disappear in 18s"}
+  13% {content: "This text will disappear in 17s"}
+  14% {content: "This text will disappear in 16s"}
+  15% {content: "This text will disappear in 15s"}
+  16% {content: "This text will disappear in 14s"}
+  17% {content: "This text will disappear in 13s"}
+  18% {content: "This text will disappear in 12s"}
+  19% {content: "This text will disappear in 11s"}
+  20% {content: "This text will disappear in 10s"}
+  21% {content: "This text will disappear in 9s"}
+  22% {content: "This text will disappear in 8s"}
+  23% {content: "This text will disappear in 7s"}
+  24% {content: "This text will disappear in 6s"}
+  25% {content: "This text will disappear in 5s"}
+  26% {content: "This text will disappear in 4s"}
+  27% {content: "This text will disappear in 3s"}
+  28% {content: "This text will disappear in 2s"}
+  29% {content: "This text will disappear in 1s"}
+  30% {content: ""}
+  100% {content: ""}
+}
+@keyframes vanishing {
+  0% { color: black;border: 1px solid grey;}
+ 
+  95% {color: black;border: 1px solid grey;}
+  100% {color: white;border: 1px solid white;}
+}
