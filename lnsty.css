@@ -22,7 +22,7 @@
             clip: rect(0, 0, 0, 0); 
             border: 0;
         }
-        .lrn-mcq-option {
+        .lrn_contentWrapper {
             background: #fff;
             font-family: 'Josefin Sans', sans-serif;
             border: 2px solid gray;
@@ -35,7 +35,7 @@
             color: gray;
             transition: 1s background;
         }
-        .lrn-mcq-option:hover {
+        .lrn_contentWrapper:hover {
             background: #e2e2e2;
             color: dimgray;
             border-color: dimgray;
