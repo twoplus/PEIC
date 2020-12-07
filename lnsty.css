@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+        .lrn_mcqgroup {
+            list-style: none;
+        }
+        .lrn-mcq-option input{
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+        .lrn-mcq-option {
+            
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px; 
+            height: 1px; 
+            padding: 0; 
+            margin: -1px; 
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0); 
+            border: 0;
+        }
+        .lrn-mcq-option {
+            background: #fff;
+            font-family: 'Josefin Sans', sans-serif;
+            border: 2px solid gray;
+            border-bottom: 5px solid gray;
+            text-align: center;
+            border-radius: 10px;
+            line-height: 50px;
+            margin: 0 0 5px 0;
+            font-size: 26px;
+            color: gray;
+            transition: 1s background;
+        }
+        .lrn-mcq-option:hover {
+            background: #e2e2e2;
+            color: dimgray;
+            border-color: dimgray;
+            border-bottom-width: 4px;
+        }
