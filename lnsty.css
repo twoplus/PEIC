@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
         .lrn_mcqgroup {
             list-style: none;
         }
@@ -22,15 +22,17 @@
             clip: rect(0, 0, 0, 0); 
             border: 0;
         }
+        .lrn-mcq-option {
+            text-align: center;
+        }
         .lrn_contentWrapper {
             background: #fff;
             font-family: 'Josefin Sans', sans-serif;
             border: 2px solid gray;
             border-bottom: 5px solid gray;
-            text-align: center;
             border-radius: 10px;
             line-height: 50px;
-            margin: 0px !important;
+            margin: 5px;
             font-size: 26px;
             color: gray;
             transition: 1s background;
