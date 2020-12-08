@@ -54,3 +54,6 @@
 .lrn {
  background: #91b7ff;
 }
+.lrn_selected {
+ background: red;
+}
