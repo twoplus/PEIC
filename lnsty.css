@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
         .lrn_mcqgroup {
             list-style: none;
         }
@@ -27,7 +27,7 @@
         }
         .lrn_contentWrapper {
             background: #fff;
-            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Quicksand', sans-serif;
             border: 2px solid gray;
             border-bottom: 5px solid gray;
             border-radius: 10px;
