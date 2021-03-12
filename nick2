@@ -2,7 +2,7 @@
   font-family: HeineFont;
   src: url(HeinemannRoman-Rm.woff);
 }
-.lrn {
+.lrn .lrn_contentWrapper {
   font-family: HeineFont;
   color: gray;
 }
