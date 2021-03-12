@@ -1,0 +1,8 @@
+@font-face {
+  font-family: HeineFont;
+  src: url(HeinemannRoman-Rm.woff);
+}
+.lrn, .lrn_contentWrapper {
+  font-family: HeineFont;
+  color: gray;
+}
