@@ -1,0 +1,7 @@
+@font-face {
+  font-family: HeineFont;
+  src: url(sansation_light.woff);
+}
+div {
+  font-family: HeineFont;
+}
